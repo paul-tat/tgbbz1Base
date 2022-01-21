@@ -11,3 +11,11 @@ Setup Backend:
 5. Gehe in deinem Browser auf die Adresse die dir im Terminal angezeigt wird.
 
 Setup Fronend:
+1. Das Projekt sollte nach dem Setup des Backends bereits ausgecheckt sein
+2. Navigiere in den Odner tgbbz1-base-ui/tgbbz1-base-ui
+3. Installiere dir mithilfe deines Terminals node
+4. Intsalliere dir NPM
+5. Installiere jetzt mithilfe von NPM 'yarn'
+6. Führe jetzt den Befehl 'yarn install' aus
+7. Führe jetzt den Befehl 'yarn start' aus
+8. Jetzt sollte sich dein Browser mit dem UI des React development Servers geöffnet haben
