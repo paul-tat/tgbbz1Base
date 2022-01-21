@@ -1,6 +1,12 @@
 # tgbbz1Base
 Ein Projekt des TGBBZ1-SB welches als Grundlage für folgende Projekte der Schule dient.
 
+Wie du deinen Code Pusht:
+Bitte beachte das Branching Concept FeaturebranchXY -> Test -> main
+Bitte nicht direkt in main Pushen!!
+Lege dir einen Branch an für das Feature, dass du gerade entwicklest und pushe ihn nchdem du fertig bist in den test Branch.
+Der Test Branch wird dan nach Abnahme vom Projektleiter in den Main Branch gepusht
+
 
 Setup Backend:
 
