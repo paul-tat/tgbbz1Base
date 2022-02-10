@@ -16,7 +16,7 @@ Der Test Branch wird dann nach Abnahme vom Projektleiter in den Main Branch gepu
 Setup Backend:
 
 1. Checke das Projekt aus in deiner IDE
-2. Stelle sicher das du Django installiert hast
+2. Stelle sicher das du Django (Framework für unser Backend) installiert hast
 3. Gehe mithilfe deines Terminals in den tgbbz1Base Odner in dem sich die manage.py Datei befindet
 4. Bist du in diesem Ordner, gebe den Befehl " python manage.py runserver "
 5. Gehe in deinem Browser auf die Adresse die dir im Terminal angezeigt wird.
@@ -24,9 +24,8 @@ Setup Backend:
 Setup Fronend:
 1. Das Projekt sollte nach dem Setup des Backends bereits ausgecheckt sein
 2. Navigiere in den Ordner tgbbz1-base-ui/tgbbz1-base-ui
-3. Installiere dir mithilfe deines Terminals node
-4. Installiere dir NPM
-5. Installiere jetzt mithilfe von NPM 'yarn'
+3. Installiere dir mithilfe deines Terminals Node (JavaScript Laufzeitumgebung welche JS Code auserhalb des Browsers ausführen kann)
+5. Installiere jetzt mithilfe von NPM 'yarn' (NPM= Node Package Manager, Yarn ist auch ein Package Manager aber schneller, besser, neuer...)
 6. Führe jetzt den Befehl 'yarn install' aus
 7. Führe jetzt den Befehl 'yarn start' aus
 8. Jetzt sollte sich dein Browser mit dem UI des React development Servers geöffnet haben
