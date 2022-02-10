@@ -10,7 +10,7 @@ FeaturebranchXY -> Test -> main
 
 Bitte nicht direkt in main Pushen!!
 Lege dir einen Branch an für das Feature, dass du gerade entwicklest und pushe ihn nachdem du fertig bist in den test Branch.
-Der Test Branch wird dan nach Abnahme vom Projektleiter in den Main Branch gepusht
+Der Test Branch wird dann nach Abnahme vom Projektleiter in den Main Branch gepusht.
 
 
 Setup Backend:
@@ -23,7 +23,7 @@ Setup Backend:
 
 Setup Fronend:
 1. Das Projekt sollte nach dem Setup des Backends bereits ausgecheckt sein
-2. Navigiere in den Odner tgbbz1-base-ui/tgbbz1-base-ui
+2. Navigiere in den Ordner tgbbz1-base-ui/tgbbz1-base-ui
 3. Installiere dir mithilfe deines Terminals Node (JavaScript Laufzeitumgebung welche JS Code auserhalb des Browsers ausführen kann)
 5. Installiere jetzt mithilfe von NPM 'yarn' (NPM= Node Package Manager, Yarn ist auch ein Package Manager aber schneller, besser, neuer...)
 6. Führe jetzt den Befehl 'yarn install' aus
