@@ -2,6 +2,7 @@
 Ein Projekt des TGBBZ1-SB welches als Grundlage für folgende Projekte der Schule dient.
 
 Wie du deinen Code Pusht:
+--> Git CheatSheet: https://education.github.com/git-cheat-sheet-education.pdf
 
 Bitte beachte das Branching Concept
 FeaturebranchXY -> Test -> main
