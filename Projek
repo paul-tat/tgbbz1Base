@@ -1,0 +1,76 @@
+Projektantrag: Nutzerverwaltung "TGBBZ Base" mit Raumbuchungsprogramm
+
+-> Allgemeine Informationen / Ist-Analyse:
+Das Projekt wird im Zuge eines Arbeitsauftrages innerhalb der Berufsschule durchgeführt.
+Es handelt sich hierbei um ein Benutzerverwaltungssystem für die gesamte Schule. 
+ Im Anschluss soll ein “Raumbuchungsprogramm” auf Grundlage des Nutzerverwaltungssystems 
+ aufgebaut werden.
+Bislang ist ein solches System nicht im Einsatz. Es handelt sich somit um eine gänzliche "Neuschöpfung".
+Da der Bedarf an einem System dieser Art seit längerem besteht, handelt es sich um die ideale Projektidee im Rahmen der Berufsschule.
+
+Soll-Definition:
+Bei dem fertigen Projekt wird es sich um eine Webanwendung handeln, die im Rahmen des Schulalltags eingesetzt wird. Sobald die Erstellung der Anwendug geglückt ist, kann diese für die Nutzverwaltung der Schule einwandfrei genutzt werden. Auch zusätzliche Erweitertungen werden in Zukunft möglich sein, da die sorgfältige Dokumentation sowie Versionierung die Möglichkeit bietet, dass nachkommende "Klassen-Generationen" die Entwicklung der Anwendung weiterführen können.
+
+-> Technisches Umfeld:
+Im Bereich des technischen Umfelds hat sich das Team für die Nutzung folgender Systeme entschieden:
+
+Für das Backend des Projekts setzen wir auf die Nutzung von Python 3.10+ sowie Django 4.0.
+
+Das Frontend des Projekts zeichnet sich hingegen durch dei Nutzung von Javascript ECMAScript 2021 
+sowie React 17.0.2 aus.
+
+Die Versionierung der Projekts erfolgt dabei mit Hilfe von Git, bzw. Github. Der genutzte Editor wird bei der Bearbeitung frei gewählt.
+Die Anzeige des Projekts, sobald es fertiggestellt ist, wird durch die Browser Chrome, Firefox und Edge stattfinden können. Dies liegt der Tatsache zugrunde, dass eben diese Browser ideale Format hinsichtlich HTML und Javascript unterstützen.
+
+-> Die Benutzerverwaltung
+Die Benutzerverwaltung wird ein Rollensystem beinhalten, dass die einzelnen Nutzer nach ihren Rechten kategorisiert. Allgemein wird hier zwischen Administator, Lehrer und Schüler unterschieden werden. Hier findet sich das geplante Berechtigungskonzept, das die User in ihre jeweiligen Gruppen unterteilt.
+
+Administratoren haben folgende Möglichkeiten:
+Löschen von Accounts
+Anlegen von Accounts in jeder Rolle
+Ändern von Daten aller Account-Arten
+Lehrer-Accounts anlegen
+
+Lehrer haben folgende Möglichkeiten:
+Generieren von Schüler-Account-Tokens
+Änderungen an den eigenen Daten vornehmen
+Ändern und löschen von Schülerdaten
+
+Schüler haben folgende Möglichkeiten:
+Änderungen an den eigenen Daten vornehmen
+
+Allgemein bildet also das Profil des Schülers die Grundlage der Funktionalitäten. Übergeordnet ist dabei der Lehrer mit zusätzlichen Berechtigungen. Die hierarchische Spitze hat in diesem System der Administrator, welcher die meisten Berechtigungen bestizt.
+
+Das Registrierungssystem wird sich aus folgenden Kriterien zusammensetzen:
+Nachname des Nutzers
+Vorname des Nutzers
+Verwendete E-Mail-Adresse
+Eingestelltes Passwort
+Token zur Registrierung
+
+Die Benutzerdaten setzen sich zum einen aus den Unterpunkten aus dem Absatz "Registrierungssystem" sowie aus Folgendem zusammen:
+Benutzername
+Voraussichtliches Ablaufdatum
+Initialen des Nutzers
+
+Das Login setzt sich aus den Parametern Benutzername und Passwort zusammen.
+
+-> Festgelegte Anweisungen für das Raumbuchungssystem
+Die im Folgenden genannten Punkte beschreiben Anforderungen an die Endanwendung, die im Zuge der Bearbeitung implementiert werden sollen. 
+Es soll nur für Lehrer möglich sein, Räume zu buchen. Die Raumbelegeung soll nur mit zeitlichem Unterschied möglich sein. 
+Es wird eine Kalenderübersicht geben, wobei der gebuchte Raum mit den Initialien des Lehrers und der Klassenname angzeigt werden soll. 
+
+-> Zeitplan für das Gesamtprojekt
+Analysephase:                                  8 Stunden
+Konzeption:                                    8 Stunden
+Durchführung/Integration:                     35 Stunden
+Backend- und Frontend-Aufgaben definieren
+Frontend entwickeln
+Backend aufbauen
+Schnittstelle zu Datenbank bereitstellen
+Abnahme/Tests:                                15 Stunden
+Mehrere Unit-Tests
+Integrationstest
+Abnahme durch Projektleiter
+GoLive:                                        4 Stunden
+Gesamtdauer:                                  70 Stunden
